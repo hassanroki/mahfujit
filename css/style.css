@@ -1,0 +1,451 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+    font-size: 16px;
+    line-height: 27px;
+}
+
+@font-face {
+    font-family: "georgia";
+    src: url(fonts/georgia/Georgia Regular font.ttf);
+}
+
+.row{
+    position: relative;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.overflow-hide{
+    overflow: hidden;
+}
+
+.col-1{
+    width: 8.33%;
+    float: left;
+}
+
+.col-2{
+    width: 16.66%;
+    float: left;
+}
+
+.col-3{
+    width: 25%;
+    float: left;
+}
+
+.col-4{
+    width: 33.33%;
+    float: left;
+}
+
+.col-5{
+    width: 41.66%;
+    float: left;
+}
+
+.col-6{
+    width: 50%;
+    float: left;
+}
+
+.col-7{
+    width: 58.33%;
+    float: left;
+}
+
+.col-8{
+    width: 66.66%;
+    float: left;
+}
+
+.col-9{
+    width: 75%;
+    float: left;
+}
+
+.col-10{
+    width: 83.33%;
+    float: left;
+}
+
+.col-11{
+    width: 91.66%;
+    float: left;
+}
+
+.col-12{
+    width: 100%;
+    float: left;
+}
+
+
+.container-fluid{
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+
+/* Header Meta Start */
+.header-meta{
+    background-color: #ba2e1f;
+    padding: 20px 0;
+    overflow: hidden;
+}
+
+.header-meta .top-menubar ul{
+    list-style: none;
+}
+
+.header-meta .top-menubar ul li{
+    padding: 0 10px;
+    color: #FFF;
+    float: left;
+}
+
+.header-meta .top-menubar ul li a{
+    font-family: 'Noto Sans Georgian', sans-serif;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.header-meta .top-menubar ul li a:hover{
+    color: #FF0;
+}
+
+.header-meta .searchbox{
+    background-color: #FFF;
+    padding: 5px 15px;
+    border-radius: 26px;
+    position: relative;
+    float: right;
+}
+
+.header-meta .searchbox input[type="search"]{
+    background-color: none;
+    border: none;
+    font-size: 14px;
+}
+
+.header-meta .searchbox input[type="search"]:focus{
+    outline: none;
+}
+
+.header-meta .searchbox button{
+    background-color: #ba2e1f;
+    border: none;
+    font-size: 11px;
+    border-radius: 26px;
+    position: absolute;
+    right: 8px;
+    top: 3px;
+    width: 22px;
+    height: 22px;
+}
+
+/* Header Meta End */
+
+/* Heder Logo Section Start */
+.header-logo{
+    padding: 40px 0;
+}
+
+.header-social-media{
+    text-align: right;
+}
+
+.header-social-media ul{
+    display: inline-block;
+}
+
+.header-social-media ul li{
+    list-style: none;
+    float: left;
+    padding: 0 5px;
+}
+
+.header-social-media ul li a{
+    font-family: 'Noto Sans Georgian', sans-serif;
+    background-color: #333333;
+    width: 30px;
+    height: 30px;
+    color: #FFF;
+    display: block;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.header-social-media ul li a i{
+    padding-top: 6px;
+}
+
+.header-social-media ul li a:hover{
+    background-color: #ba2e1f;
+}
+/* Header Logo Section End */
+
+
+/* Header Menu Start */
+.primary-menu{
+    background-color: #333333;
+    border-radius: 5px;
+}
+
+.primary-menu ul{
+    text-align: center;
+}
+
+.primary-menu> ul> li{
+    display: inline-block;
+    list-style: none;
+}
+
+.primary-menu ul li a{
+    color: #FFF;
+    text-decoration: none;
+    padding: 10px 10px;
+    display: block;
+}
+
+.primary-menu ul li a:hover{
+    color: #a32f22;
+}
+
+/* Sub Menu */
+.primary-menu ul ul{
+    list-style: none;
+    position: absolute;
+    display: none;
+    min-width: 170px;
+    z-index: 99;
+}
+
+.primary-menu ul li:hover ul{
+    display: block;
+    background-color: #333333;
+    text-align: left;
+    color: #FFF;
+}
+/* Header Menu End */
+
+/* Slider Section Start */
+.slider-img{
+    padding-top: 24px;
+    float: left;
+}
+
+.slider-content{
+    float: left;
+}
+
+.slider-content h2{
+    font-family: 'Noto Sans Georgian', sans-serif;
+    font-size: 86px;
+    padding-top: 90px;
+    padding-left: 45px;
+}
+
+.slider-content p{
+    font-family: 'Noto Sans Georgian', sans-serif;
+    color: #666666;
+    padding-left: 45px;
+}
+
+.slider-content a{
+    text-decoration: none;
+    text-align: right;
+    display: block;
+    color: #ba2e1f;
+    font-size: 21px;
+    text-transform: uppercase;
+    padding: 8px 0;
+}
+
+/* Slider Section End */
+
+/* Our Services Section Start */
+.our-services-section{
+    background-color: #f2f2f2;
+    padding: 40px 0;
+}
+
+.our-services-section h2{
+    font-family: 'Noto Sans Georgian', sans-serif;
+    padding-bottom: 40px;
+    font-size: 26px;
+    color: #7b7b7b;
+}
+
+.about-us{
+    float: left;
+}
+
+.about-us img{
+    border: 1px solid #dfdfdf;
+    padding: 5px;
+}
+
+.our-services-section p{
+    padding: 0px  23px 20px 0px;
+    font-family: 'Noto Sans Georgian', sans-serif;
+    font-size: 13px;
+    text-align: justify;
+    color: #878787;
+    line-height: 1.7;
+}
+
+.about-us p{
+    padding-top: 20px;
+}
+
+.our-services{
+    float: left;
+}
+
+.our-services-content{
+    padding-bottom: 15px;
+}
+
+.our-services-section h4{
+    font-family: 'Noto Sans Georgian', sans-serif;
+    font-size: 14px;
+    color: #878787;
+    padding-bottom: 5px;
+}
+
+.our-client{
+    float: left;
+}
+
+.our-client h4{
+    padding-top: 15px;
+    font-size: 16px;
+}
+
+
+
+.our-services-section a{
+    font-family: 'Noto Sans Georgian', sans-serif;
+    text-decoration: none;
+    text-align: right;
+    display: block;
+    color: #ba2e1f;
+    font-size: 13px;
+    text-transform: capitalize;
+    padding: 10px 23px 10px 0px;
+}
+/* Our Services Section End */
+
+/* Quick Section Start */
+.quick-section{
+    padding: 25px 0;
+    color: #666666;
+}
+
+.quick-section h4{
+    font-family: 'Noto Sans Georgian', sans-serif;
+    font-size: 16px;
+    padding: 20px 0;
+    border-top: 1px solid #666666;
+}
+
+.quick-section span{
+    color: #b82c1f;
+}
+
+.latest-tweets, .quick-links, .latest-blog, .contact-us{
+    width: 22%;
+    margin-right: 3%;
+}
+
+.latest-tweets p{
+    font-family: 'Noto Sans Georgian', sans-serif;
+    font-size: 12px;
+    line-height: 1.8;
+}
+
+.quick-links ul li{
+    list-style: none;
+    border-bottom: 1px solid #666666;
+    padding: 7px 0px;
+}
+
+.quick-links ul li a{
+    font-family: 'Noto Sans Georgian', sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    display: block;
+}
+
+.latest-blog h5{
+    font-family: 'Noto Sans Georgian', sans-serif;
+    font-size: 15px;
+}
+
+.latest-blog p{
+    font-family: 'Noto Sans Georgian', sans-serif;
+    font-size: 13px;
+}
+
+.latest-blog a{
+    font-family: 'Noto Sans Georgian', sans-serif;
+    text-decoration: none;
+    text-align: right;
+    display: block;
+    color: #ba2e1f;
+    font-size: 12px;
+    text-transform: capitalize;
+    padding: 10px 23px 10px 0px;
+}
+
+.contact-us input[type="text"],[type="email"], textarea{
+    width: 90%;
+    border: none;
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.contact-us input[type="text"],[type="email"], textarea:focus{
+    outline: none;
+}
+
+.contact-us input[type="submit"], [type="reset"]{
+    background-color: #f2f2f2;
+    color: #ba2e1f;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+/* Quick Section End */
+
+/* Footer Section End */
+.footer-section{
+    background-color: #f2f2f2;
+    padding: 25px 0;
+    color: #919191;
+}
+
+.copy-right p{
+    text-align: left;
+    font-family: 'Noto Sans Georgian', sans-serif;
+}
+
+.templete p{
+    font-family: 'Noto Sans Georgian', sans-serif;
+    text-align: right;
+}
+/* Footer Section End */

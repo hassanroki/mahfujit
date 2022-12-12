@@ -1,0 +1,236 @@
+/* Max-Width 768px Start */
+@media all and (max-width: 768px){
+    /* Header Meta Start */
+    .top-menubar{
+        width: 40%;
+        float: left;
+        margin-left: 7%;
+        font-size: 13px;
+    }
+
+    .top-searchbar{
+        width: 24%;
+        float: left;
+        margin-right: 7%;
+    }
+    /* Header Meta End */
+
+    /* Header Logo Section Start */
+    .logo{
+        margin-left: 7%;
+        width: 40%;
+    }
+
+    .header-social-media{
+        width: 46%;
+        margin-right: 7%;
+        text-align: left;
+        display: inline-block;
+    }
+    /* Header Logo Section End */
+
+    /* Heade Menu Start */
+    .primary-menu{
+        width: 66%;
+        margin: 0% 7%;
+    }
+
+    .primary-menu ul{
+        display: inline-block;
+    }
+
+    .primary-menu> ul> li{
+       text-align: center;
+    }
+
+    .primary-menu ul li a{
+        font-size: 11px;
+        padding: 10px 5px;
+    }
+    /* Header Menu End */
+
+    /* Slider Section Start */
+    .slider-img{
+        width: 35%;
+        margin-left: 7%;
+    }
+
+    .slider-img img{
+        width: 100%;
+    }
+
+    .slider-content{
+        width: 31%;
+        margin-right: 7%;
+    }
+    .slider-content h2{
+        font-size: 40px;
+    }
+
+    .slider-content p{
+        text-align: justify;
+        padding-top: 20px;
+    }
+    /* Slider Section End */
+
+    /* Our Services Section Start */
+    .about-us, .our-services, .our-client{
+        width: 65%;
+        padding: 0 30px;
+        margin: 0 7%;
+        display: block;
+    }
+
+    .about-us img{
+        margin: 0 auto;
+        display: block;
+    }
+    /* Our services Section End */
+
+    /* Our Quick Section Start */
+        .latest-tweets, .quick-links, .latest-blog, .contact-us{
+        width: 65%;
+        margin: 0 7%;
+        padding-bottom: 20px;
+        float: left;
+        overflow: hidden;
+    }
+    /* Our Quick Section End */
+
+    /* Footer Section Start */
+    .copy-right p{
+        text-align: center;
+        font-size: 13px;
+    }
+    .templete p{
+        text-align: left;
+        font-size: 13px;
+    }
+    /* Footer Section End */
+}
+/* Max-Width 768px End */
+
+/* Max-Width 576px Start */
+@media all and (max-width: 576px){
+    /* Header Meta Start */
+    .top-menubar{
+        width: 40%;
+        margin: 0 10%;
+        padding: 20px 0;
+    }
+
+    .top-menubar ul li a{
+        padding: 10px 2px;
+        font-size: 11px;
+    }
+
+    .top-searchbar{
+        width: 30%;
+        margin: 0 10%;
+        float: left;
+    }
+    /* Header Meta End */
+
+    /* Header Logo Section Start */
+    .logo{
+        display: none;
+    }
+
+    .header-social-media{
+        text-align: center;
+        display: inline-block;
+        width: 40%;
+        margin: 0 10%;
+    }
+    /* Header Logo Section End */
+
+    /* Heade Menu Start */
+    .primary-menu{
+        width: 40%;
+        margin: 0% 10%;
+    }
+
+    .primary-menu ul{
+        display: inline-block;
+    }
+
+    .primary-menu> ul> li{
+       text-align: left;
+    }
+
+    .primary-menu ul li a{
+        font-size: 12px;
+        padding: 10px 5px;
+    }
+    /* Header Menu End */
+
+    /* Slider Section Start */
+    .slider-img{
+        width: 50%;
+        margin: 0 10%;
+        float: left;
+    }
+
+    .slider-img img{
+        width: 80%;
+    }
+
+    .slider-content{
+        width: 40%;
+        margin: 0 10%;
+        float: left;
+    }
+    .slider-content h2{
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .slider-content p{
+        text-align: justify;
+        padding-top: 20px;
+    }
+    /* Slider Section End */
+
+    /* Our Services Section Start */
+    .about-us, .our-services, .our-client{
+        width: 40%;
+        margin: 0 10%;
+        display: block;
+        padding: 30px 0;
+    }
+
+    .our-services-section h2{
+        text-align: center;
+    }
+
+    .about-us img{
+        margin: 0 auto;
+        display: block;
+    }
+    /* Our services Section End */
+
+    /* Our Quick Section Start */
+        .latest-tweets, .quick-links, .latest-blog, .contact-us{
+        width: 40%;
+        margin: 0 10%;
+        padding-bottom: 20px;
+        float: left;
+        overflow: hidden;
+    }
+    /* Our Quick Section End */
+
+    /* Footer Section Start */
+    .copy-right{
+        width: 40%;
+        margin: 0 10%;
+        font-size: 14px;
+    }
+    .templete{
+        display: none;
+    }
+}
+    /* Footer Section End */
+/* Max-Width 576px End */
+
+
+
