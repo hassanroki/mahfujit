@@ -8,11 +8,6 @@
     line-height: 27px;
 }
 
-@font-face {
-    font-family: "georgia";
-    src: url(fonts/georgia/Georgia Regular font.ttf);
-}
-
 .row{
     position: relative;
 }
