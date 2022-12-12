@@ -326,20 +326,16 @@
         .latest-tweets, .quick-links, .latest-blog, .contact-us{
         width: 35%;
         margin: 0 2%;
-        padding-bottom: 20px;
+        padding-bottom: 5px;
         float: left;
-        overflow: hidden;
     }
     /* Our Quick Section End */
 
     /* Footer Section Start */
     .copy-right{
-        width: 40%;
-        margin: 0 10%;
-        font-size: 14px;
-    }
-    .templete{
-        display: none;
+        width: 35%;
+        margin: 0 2%;
+        font-size: 12px;
     }
 }
     /* Footer Section End */
